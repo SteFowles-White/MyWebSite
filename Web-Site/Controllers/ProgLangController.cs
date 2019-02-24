@@ -8,7 +8,7 @@ namespace Web_Site.Controllers
 {
     public class ProgLangController : Controller
     {
-        // GET: ProgLang
+        // GET: Need to review type of return https://www.tutorialsteacher.com/mvc/action-method-in-mvc
         public ActionResult Index()
         {
             return View();
