@@ -1,4 +1,6 @@
-﻿@model IEnumerable<Web_Site.Models.ProgLang>
+﻿@model Web_Site.Models.ProgLang
+
+ 
 
 @{
     ViewBag.Title = "ProgLang";
@@ -6,4 +8,8 @@
 }
 
 <h2>ProgLang</h2>
+
+<h1>@Model.Languague</h1>
+<p>@Model.Frameworks</p>
+<p> @Model.Description</p>
 

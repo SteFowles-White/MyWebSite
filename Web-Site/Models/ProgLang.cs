@@ -7,8 +7,8 @@ namespace Web_Site.Models
 {
     public class ProgLang
     {
-        public int Languague { get; set; }
+        public string Languague { get; set; }
         public string Frameworks { get; set; }
-        public int Description { get; set; }
+        public string Description { get; set; }
     }
 }
