@@ -20,17 +20,16 @@ namespace Web_Site.Data
                 },
              new ProgLang()
              {
-                    Languague = "HTML & CSS",
-                    Frameworks = "HTML5, W3.CSS, BootStrap",
-                    Description = "Expereince with using Customer Made Front End Webpages and ulitising framworks such as W3.CC and Bootstap. All to ensure"
-                           + "Your wesbite reaches the right people in the right way",
+                    Languague = "JavaScript",
+                    Frameworks = "DOM,Ajax, Vanillia JavaScript, ES6",
+                    Description = "Expereinced using Javascript for front end utilisation and ensure Websites are interactive. " +
+                                  "Building from the ground up to ensure that it meed the website needs",
               },
               new ProgLang()
               {
-                    Languague = "HTML & CSS",
-                    Frameworks = "HTML5, W3.CSS, BootStrap",
-                    Description = "Expereince with using Customer Made Front End Webpages and ulitising framworks such as W3.CC and Bootstap. All to ensure"
-                           + "Your wesbite reaches the right people in the right way",
+                    Languague = "C#",
+                    Frameworks = "ASP.net MVC",
+                    Description = "Developing fully funtions websites to ensure that front end platforms enable fully dynamic websites",
                },
 
 
