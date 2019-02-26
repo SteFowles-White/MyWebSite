@@ -17,8 +17,9 @@ namespace Web_Site.DataRepository
                 //instanate progLang model object
                 new ProgLang()
                         {
-                            //put in the property values from the new ProgLang model class to 
-                            //set the data in the properties
+                    //put in the property values from the new ProgLang model class to 
+                    //set the data in the properties
+                            Id = 1,
                             Language = "HTML & CSS",
                             Frameworks = new string[]
                                    { "BootStap,",
@@ -28,6 +29,7 @@ namespace Web_Site.DataRepository
                         },
                  new ProgLang()
                         {
+                            Id = 2,
                             Language = "JavaScript",
                             Frameworks = new string[]
                                    { "Vanillia JavaScript,",
@@ -39,7 +41,7 @@ namespace Web_Site.DataRepository
                         },
                   new ProgLang()
                         {
- 
+                            Id = 3,
                             Language = "C#",
                             Frameworks = new string[]
                                    { "ASP.NET MVC,"
@@ -48,7 +50,7 @@ namespace Web_Site.DataRepository
                         },
                   new ProgLang()
                         {
-
+                            Id = 4,
                             Language = "DataBase",
                             Frameworks = new string[]
                                    { "MYSQL"
@@ -60,7 +62,7 @@ namespace Web_Site.DataRepository
 
             //method that returns a ProgLang Model instance
             //public ProgLang (//this is the model instance) GetProgLang (name of method)
-            public ProgLang GetProgLang(string lang)
+            public ProgLang GetProgLang(int id)
             {
                 //need to have a method to return a value;
                 ProgLang ProgLangReturn = null;
@@ -71,14 +73,16 @@ namespace Web_Site.DataRepository
 
                             //acces the langauge in object Model with the same string as lang input
 
-                            if (lang == languagues.Language)
+                            if (id == languagues.Id)
                             {
-                                ProgLangReturn = languagues;
-                                break;
+                                    //add return languagues to ProgLandReturn value
+                                    ProgLangReturn = languagues;
+                                    break;
                             }
                             else
                             {
-                                ProgLangReturn = null;
+                                    //add return null to ProgLandReturn value
+                                    ProgLangReturn = null;
 
                             }
                     }
