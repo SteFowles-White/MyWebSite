@@ -12,14 +12,25 @@ namespace Web_Site.Controllers
         // GET: Need to review type of return https://www.tutorialsteacher.com/mvc/action-method-in-mvc
         public ActionResult ProgLang()
         {
-            var HTML = new ProgLang()
+
+            //instanate progLang model object
+            var ProgLang = new ProgLang()
             {
-                Languague = "HTML & CSS",
-                Frameworks = "HTML5, W3.CSS, BootStrap",
-                Description = "Expereince with using Customer Made Front End Webpages and ulitising framworks such as W3.CC and Bootstap. All to ensure"
-                               + "Your wesbite reaches the right people in the right way",
-            };
-            return View(HTML);
+                //put in the property values into the new ProgLang model class to 
+                //set the data in the properties
+
+                Language = "HTML & CSS",
+                Frameworks = new string[]
+                       { "BootStap,",
+                          "W3.CSS",
+                       },
+                DescriptionLang = "Let hope this works"
+
+
+        };
+
+            return View(ProgLang);
         }
+
     }
 }
