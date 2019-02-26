@@ -116,7 +116,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\ProgLangController.cs" />
-    <Compile Include="DataRepository\ProgramLangResponsitory.cs" />
+    <Compile Include="DataRepository\ProgramLangRepository.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

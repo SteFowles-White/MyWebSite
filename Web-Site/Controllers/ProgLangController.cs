@@ -13,23 +13,9 @@ namespace Web_Site.Controllers
         public ActionResult ProgLang()
         {
 
-            //instanate progLang model object
-            var progLangs = new ProgLang()
-            {
-                //put in the property values into the new ProgLang model class to 
-                //set the data in the properties
+ 
 
-                Language = "HTML & CSS",
-                Frameworks = new string[]
-                       { "BootStap,",
-                          "W3.CSS",
-                       },
-                DescriptionLang = "Let hope this works"
-
-
-        };
-
-            return View(progLangs);
+            return View();
         }
 
     }
