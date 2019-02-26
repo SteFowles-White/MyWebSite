@@ -14,7 +14,7 @@ namespace Web_Site.Controllers
         {
 
             //instanate progLang model object
-            var ProgLang = new ProgLang()
+            var progLangs = new ProgLang()
             {
                 //put in the property values into the new ProgLang model class to 
                 //set the data in the properties
@@ -29,7 +29,7 @@ namespace Web_Site.Controllers
 
         };
 
-            return View(ProgLang);
+            return View(progLangs);
         }
 
     }
