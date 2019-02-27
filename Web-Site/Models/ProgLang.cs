@@ -17,5 +17,13 @@ namespace Web_Site.Models
         public string[] Frameworks { get; set; }
 
         public string DescriptionLang { get; set; }
+
+        public string imgDirectory {
+            get
+            {
+                return "Id" + Language.Replace(" ", "_");
+            }
+
+        }
     }
 }

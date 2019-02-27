@@ -20,7 +20,22 @@ namespace Web_Site.Controllers
 
             }
 
-        // GET: Need to review type of return https://www.tutorialsteacher.com/mvc/action-method-in-mvc
+
+        // This is the set up Action Result
+        public ActionResult Index()
+        {
+            var ProglangViewData = _programLangRepository.GetProgLangs();
+            return View(ProglangViewData);
+        }
+
+
+
+
+
+        
+        //This Action REsult might not be needed
+
+
         // when you use the ? in a class paramter it means the return can be null
         public ActionResult ProgLang(int? id)
         {

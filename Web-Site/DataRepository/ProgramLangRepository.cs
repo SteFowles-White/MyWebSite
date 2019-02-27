@@ -60,8 +60,23 @@ namespace Web_Site.DataRepository
 
              };
 
+        //Set up a class  that enable access to the ProgLang array
+
+            public ProgLang[] GetProgLangs()
+            {
+            //returns the Prog Lang array
+                return _progLangData;
+
+            }
+
+       
+
+        //This section might not be needed!!!
+
+
+
             //method that returns a ProgLang Model instance
-            //public ProgLang (//this is the model instance) GetProgLang (name of method)
+            //public ProgLang /this is the model instance) GetProgLang (name of method)
             public ProgLang GetProgLang(int id)
             {
                 //need to have a method to return a value;
