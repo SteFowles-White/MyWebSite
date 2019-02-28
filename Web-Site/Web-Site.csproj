@@ -112,10 +112,12 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\ProgLangController.cs" />
+    <Compile Include="DataRepository\HomeRepository.cs" />
     <Compile Include="DataRepository\ProgramLangRepository.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Home.cs" />
     <Compile Include="Models\ProgLang.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
