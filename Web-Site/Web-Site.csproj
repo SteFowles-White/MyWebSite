@@ -105,29 +105,25 @@
   <ItemGroup>
     <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
-    <Content Include="Images\Opening.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\ProgLangController.cs" />
-    <Compile Include="DataRepository\HomeRepository.cs" />
-    <Compile Include="DataRepository\ProgramLangRepository.cs" />
+    <Compile Include="Controllers\StephenFowlesWhiteController.cs" />
+    <Compile Include="DataRepository\StephenFowlesWhiteRepos.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Home.cs" />
-    <Compile Include="Models\ProgLang.cs" />
+    <Compile Include="Models\StephenFowlesWhite.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
     <None Include="packages.config" />
-    <Content Include="Views\ProgLang\ProgLang.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\ProgLang\Index.cshtml" />
+    <Content Include="Views\StephenFowlesWhite\StephenFowlesWhite.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -137,6 +133,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
