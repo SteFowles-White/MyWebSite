@@ -104,7 +104,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Site.css" />
+    <Content Include="Content\W3.css" />
     <Content Include="Global.asax" />
+    <Content Include="JavaScript\JavaScript.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
