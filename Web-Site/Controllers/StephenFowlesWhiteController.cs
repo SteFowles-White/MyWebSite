@@ -25,7 +25,7 @@ namespace Web_Site.Controllers
         {
             //get the data using the get data method
 
-            var ReturnTabData = _mainPageData.GetTabData();
+            var ReturnTabData = _mainPageData.GetDecriptionData();
 
             // retunr the assigned varable data to the view
             return View(ReturnTabData);

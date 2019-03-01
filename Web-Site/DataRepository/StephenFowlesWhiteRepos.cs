@@ -10,26 +10,18 @@ namespace Web_Site.DataRepository
     {
         //1
         //create data that the StephenFowlesWhite Page will use
-        private static TabData[] _mainPageData = new TabData[]
+        private static DecriptionData[] _mainPageData = new DecriptionData[]
         {
-            new TabData()
+             new DecriptionData()
                 {
-                    Title = "",
-                    Name = "",
-                    Header = ""
-                },
-             new TabData()
-                {
-                    Title = "",
-                    Name = "",
-                    Header = ""
-                },
-             new TabData()
-                {
-                    Title = "",
-                    Name = "",
-                    Header = ""
-                }
+                    Title = "C# ASP.Net MVC Developer",
+                    Name = "Stephen Fowles-White",
+                    Header = "I am not a developer.... not yet anyway. I am an IT recruiter " +
+                             "looking to change careers into to one of the most rewarding job roles - a developer. " +
+                             "For the past year I have developed my coding skills whilst also having a great " +
+                             "ability to build long lasting relationship with clients and stakholder. I am am expereince " +
+                             "in C# and vanillia Javascript OOP principles and developing solid fully rounded website."
+                  }
         };
 
 
@@ -41,7 +33,7 @@ namespace Web_Site.DataRepository
     //create a public method call Get.......data name
     //it returns the private static data array
 
-            public TabData[] GetTabData()
+            public DecriptionData[] GetDecriptionData()
             {
                 var TabData = _mainPageData;
                 return TabData;

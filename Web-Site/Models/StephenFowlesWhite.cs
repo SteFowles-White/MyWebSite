@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Web_Site.Models
 {
-    public class TabData
+    public class DecriptionData
     {
         public string Title { get; set; }
 
