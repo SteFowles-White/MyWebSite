@@ -111,6 +111,7 @@
     <Content Include="Images\LinkedIn.png" />
     <Content Include="Images\Name.png" />
     <Content Include="Images\Phone.png" />
+    <Content Include="Images\profile.jpg" />
     <Content Include="JavaScript\JavaScript.js" />
     <Content Include="Web.config" />
   </ItemGroup>

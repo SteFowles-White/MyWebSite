@@ -1,28 +1,14 @@
 ﻿body {
     padding-top: .01px;
     padding-bottom: 20px;
+    background-color: blue;
 }
 
-#rows{
-    padding-top: 40px;
-    padding-bottom: 40px;
+
+#sideSection {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-    #rows > div > h3 {
-        height: 400px;
-        padding-top: 100px;
-    }
-
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
-}
 

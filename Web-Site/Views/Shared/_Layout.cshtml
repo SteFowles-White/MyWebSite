@@ -23,27 +23,35 @@
         <a href="#" class="w3-bar-item w3-button">Link 2</a>
         <a href="#" class="w3-bar-item w3-button">Link 3</a>
     </div>
-    <div>
-         <section>
+    <div class="w3-container">
+        <div class="w3-col m12 l3">
+
+            <section class="w3-col m6 l12">
+                <img src="~/Images/profile.jpg" style="width:100%">
+            </section>
+
+            <section  class="w3-col m6 l12">
                 <h2>General Information</h2>
-                <ul>
+                <ul id ="sideSection">
                     <li><p><img src="~/Images/Name.png" /> Name: <strong>Stephen Fowles-White</strong></p></li>
                     <li><p>Location: <strong>West Yorkshire UK</strong></p></li>
                     <li><p><img src="~/Images/Email.png" />Fowleswhite@gmail.com </p></li>
                     <li><p><img src="~/Images/Phone.png" />07</p></li>
                     <li><p><img src="~/Images/GitHub.png" />https://github.com/SteFowles-White</p></li>
-                    <li><p><img src="~/Images/LinkedIn.png"/>https://www.linkedin.com/in/stephen-fowles-white/</p></li>
+                    <li><p><img src="~/Images/LinkedIn.png" />https://www.linkedin.com/in/stephen-fowles-white/</p></li>
                 </ul>
-          </section>
-         <section>
-             @RenderBody()
-         </section>
+            </section>
+        </div>
+        <section>
+            @RenderBody()
+        </section>
         <hr />
+    </div>
         <footer>
             <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
         </footer>
         <script src="~/JavaScript/JavaScript.js"></script>
-    </div>
+   
 
 </body>
 </html>
