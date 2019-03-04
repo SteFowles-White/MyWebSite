@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="w3-bar w3-red">
-        <a href="#" class="w3-bar-item w3-button">Home</a>
+        <a href="#" class="w3-bar-item w3-button">Stephen Fowles-Whtie</a>
         <a href="#" class="w3-bar-item w3-button w3-hide-small">Link 1</a>
         <a href="#" class="w3-bar-item w3-button w3-hide-small">Link 2</a>
         <a href="#" class="w3-bar-item w3-button w3-hide-small">Link 3</a>
@@ -24,7 +24,20 @@
         <a href="#" class="w3-bar-item w3-button">Link 3</a>
     </div>
     <div>
-        @RenderBody()
+         <section>
+                <h2>General Information</h2>
+                <ul>
+                    <li><p><img src="~/Images/Name.png" /> Name: <strong>Stephen Fowles-White</strong></p></li>
+                    <li><p>Location: <strong>West Yorkshire UK</strong></p></li>
+                    <li><p><img src="~/Images/Email.png" />Fowleswhite@gmail.com </p></li>
+                    <li><p><img src="~/Images/Phone.png" />07</p></li>
+                    <li><p><img src="~/Images/GitHub.png" />https://github.com/SteFowles-White</p></li>
+                    <li><p><img src="~/Images/LinkedIn.png"/>https://www.linkedin.com/in/stephen-fowles-white/</p></li>
+                </ul>
+          </section>
+         <section>
+             @RenderBody()
+         </section>
         <hr />
         <footer>
             <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
